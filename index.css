@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    overflow-y: hidden;
+    background: linear-gradient(#959595,#f9f9f9);
+}
+
+.container{
+    max-width: 60vw;
+    margin: 10rem auto;
+    text-align: center;
+}
+h2{
+    margin-bottom: 2.5rem;
+}
+#chatWindow{
+    height:45vh;
+}
+
+#mainWrapper{
+    display:none;
+}
+
+.interfaceWrapper{
+    display:flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+#chatWrapper, #userWrapper{
+    flex-basis: 48%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background:#f3f3f3;
+    padding: 1rem;
+}
+
